@@ -23,3 +23,5 @@
 12. Add some global styling in index.css
 
 11. Go to fonts.google.com and download font named "outfit"
+
+12. You can download images from https://unsplash.com/

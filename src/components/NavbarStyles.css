@@ -11,7 +11,7 @@
 .circle-image {
     border-radius: 50%; /* This will make the element circular */
     overflow: hidden;   /* This will clip the content outside the circular shape */
-    width: 147px;       /* Width of the image */
+    width: 132px;       /* Width of the image */
     height: 132px;      /* Height of the image, should be equal to width for a perfect circle */
     margin-top: 70px;
   }
