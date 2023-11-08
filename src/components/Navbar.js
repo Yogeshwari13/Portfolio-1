@@ -3,6 +3,7 @@ import "./NavbarStyles.css";
 
 import React, { useState } from 'react'
 import {FaBars, FaTimes} from "react-icons/fa";
+import img from '../assets/MuscleCode.jpg'
 
 const Navbar = () => {
 
@@ -23,7 +24,8 @@ const Navbar = () => {
   return (
     <div className={color ? "header header-bg" : "header"}>
         <Link to="/">
-            <h1>Portfolio</h1>
+            {/* <h1>Portfolio</h1> */}
+            <img class="circle-image" src={img} alt="Portfolio"/>
         </Link>
         <ul className={click? "nav-menu active":"nav-menu"}>
             <li>

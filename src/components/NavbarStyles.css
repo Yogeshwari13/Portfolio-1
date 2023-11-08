@@ -8,6 +8,13 @@
     height: 90px;
     z-index: 10;
 }
+.circle-image {
+    border-radius: 50%; /* This will make the element circular */
+    overflow: hidden;   /* This will clip the content outside the circular shape */
+    width: 147px;       /* Width of the image */
+    height: 132px;      /* Height of the image, should be equal to width for a perfect circle */
+    margin-top: 70px;
+  }
 
 .header-bg{
     background-color: rgba(0,0,0,0.85);
@@ -56,4 +63,11 @@
     .hamburger{
         display: initial;
     }
+    .circle-image {
+        border-radius: 50%; /* This will make the element circular */
+        overflow: hidden;   /* This will clip the content outside the circular shape */
+        width: 100px;       /* Width of the image */
+        height: 100px;      /* Height of the image, should be equal to width for a perfect circle */
+        margin-top: 70px;
+      }
   }
